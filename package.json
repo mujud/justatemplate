@@ -1,0 +1,45 @@
+{
+  "name": "just-a-template",
+  "version": "1.0.0",
+  "description": "Create templates for files you often create in you project to speed up development",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "bin": {
+    "jat": "./lib/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mujud/justatemplate.git"
+  },
+  "keywords": [
+    "js",
+    "templates",
+    "files",
+    "generate",
+    "create"
+  ],
+  "author": "Jalil Laaraichi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mujud/justatemplate/issues"
+  },
+  "homepage": "https://github.com/mujud/justatemplate#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "commanderjsdecorators": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "prettier": "^1.16.4",
+    "progress": "^2.0.3",
+    "prompts": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "@types/prompts": "^1.2.0",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  }
+}
