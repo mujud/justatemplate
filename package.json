@@ -1,7 +1,7 @@
 {
   "name": "just-a-template",
   "version": "1.0.0",
-  "description": "Create templates for files you often create in you project to speed up development",
+  "description": "Create templates for files your often create in you project to speed up development",
   "scripts": {
     "start": "tsc -w"
   },
